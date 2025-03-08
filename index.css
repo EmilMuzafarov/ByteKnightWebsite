@@ -1,0 +1,276 @@
+body{
+    background-image:url("/images/gears.png");
+    text-align: center;
+    background-position-y:bottom;
+}
+header{
+    color:red;
+    background:black;
+    height:120px;
+    text-align: center;
+    font-weight: bolder;
+}
+em{
+    font-size: 60px;
+}
+#sub a{
+  text-decoration: underline;
+  font-size: 50px;
+}
+a{
+    font-size: 18px;
+    text-decoration: solid;
+}
+a:visited{
+  color:blue;
+}
+a:hover{
+    color:goldenrod;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: 0;
+    clear:left;
+}
+#exp{
+    display: flexbox;
+    text-align: center;
+    margin:auto 0px;
+
+}
+.section{
+  font-family: "Roboto Slab";
+  font-size: 50px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#mem{
+    clear:both;
+}
+em {
+    color:red;
+    font-family: "Rowdies";
+  }
+  div {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  body::-webkit-scrollbar {
+    width: 0.3rem;
+  }
+  body::-webkit-scrollbar-track {
+    background:black;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: dodgerblue;
+  }
+.sidebar li:hover{
+  transform:scale(1.04);
+}
+*{
+  margin:0;
+  padding:0;
+}
+.second a{
+  height:100%;
+  padding: 15px 15px;
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  color:dodgerblue;
+  margin-bottom: -40px;
+}
+.second a:hover {
+  background-color:darkblue;
+  color:aqua;
+}
+.sidebar{
+  list-style:none;
+  display:flex;
+  top:0;
+  right:0;
+  padding: none;
+  text-align: right;
+  position:fixed;
+  width: 300px;
+  height:100%;
+  right:-100%;
+  z-index:999;
+  flex-direction:column;
+  align-items:normal;
+  justify-content:flex-start;
+  background-color:black;
+  transition:1s ease-out;
+  padding:0;
+}
+.sidebar li{
+  height:8vh;
+  width:100%;
+  padding:none;
+  margin: 16px;
+}
+.mainbar{
+  width: 100px;
+  margin-left:92%;
+  margin-top:-48px;
+  padding:0px;
+  height:0%;
+  display: flex;
+}
+.mainbar li{
+  padding:-10px;
+  margin-top:-20px;
+}
+.fa-bars{
+  padding:10px 12px;
+  transform:scale(2);
+}
+.menu ul{
+  list-style-type: none;
+  background-color: black;
+  height:18vh;
+  padding:0;
+  margin:0;
+  overflow: hidden;
+}
+.menu a{
+  font-size: 22px;
+  color:blue;
+  padding:15px;
+  display:inline-block;
+  text-align:center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "REM";
+  margin-top:70px;
+}
+.menu a:hover{
+  background-color: darkblue;
+  color:goldenrod;
+}
+h2{
+  font-size: 38px;
+}
+h1{
+  font-size: 50px;
+}
+li{
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  position:initial;
+  text-align: left;
+}
+.comps li{
+    font-size: 20px;
+    color: chocolate;
+    font-weight: bold;
+    font-family: "Verdana";
+    text-align: center;
+}
+#sub{
+    margin-top: 15px;
+}
+#logo{
+    right:0;
+    bottom:0;
+    max-height: 200px;
+    max-width: 200px;
+    margin-bottom: 0px;
+    position:fixed;
+}
+.coaches{
+  display:inline-flex;
+  justify-content: space-around;
+  text-align:center;
+  margin:auto;
+}
+.container {
+  display: flex;
+}
+
+.s {
+  text-align: center;
+}
+#coach{
+  color: black;
+  font-family: "Roboto";
+}
+.pics {
+  width:350px;
+  height:500px;
+  background-color: grey;
+  font-size: 30px;
+  margin-left: 20px;
+  position:relative;
+  margin-top:20px;
+  border-width: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+footer{
+  width:100%;
+  min-height: 12vh;
+  background-color: black;
+  color:chocolate;
+  font-size: 30px;
+}
+#about{
+  display: flexbox;
+  max-width: 800px;
+  align-items: center;
+  justify-content: center;
+  margin:auto;
+}
+#desc{
+  font-size: 25px;
+  color:aqua;
+  font-weight: bold;
+  font-family: "Roboto";
+}
+#contacts{
+  font-size: 40px;
+  padding: 20px;
+}
+#contacts:hover{
+  color:blue
+}
+.contact{
+  display: flexbox;
+  justify-content: space-between;
+  align-items: center;
+}
+#bot{
+  color:navy;
+  font-family: "Roboto";
+  font-size: 30px;
+  font-style: oblique;
+  text-decoration: underline;
+  font-weight: bolder;
+}
+#bot:hover{
+  color:goldenrod;
+}
+/*
+.binary {
+  position: absolute;
+  top: -10px;
+  left: calc(var(--side) * 10vw);
+  animation: fall linear infinite;
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100vh);
+  }
+}
+*/
+
