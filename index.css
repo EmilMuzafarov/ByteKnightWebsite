@@ -1,5 +1,5 @@
 body{
-    background-image:url("/images/gears.png");
+    background-image:url("./images/gears.png");
     text-align: center;
     background-position-y:bottom;
 }
